@@ -1,0 +1,74 @@
+/* ==========================================================================
+   Marais Consulting — Colour tokens
+   Approved palette only. Derived tints/shades stay within the brand family.
+   ========================================================================== */
+:root {
+  /* --- Brand core (approved, do not alter) --- */
+  --navy:        #1A1A4E;  /* Primary. Authority, depth, boardroom */
+  --gold:        #C9963A;  /* Accent. Premium, considered, warm */
+  --white:       #FFFFFF;  /* Canvas */
+  --blush:       #F4F2F9;  /* Soft surface, section alternation */
+  --slate:       #7A7A9A;  /* Muted text, secondary UI */
+
+  /* --- Navy family (derived, in-brand) --- */
+  --navy-900:    #10102F;  /* Deepest — footers, overlays */
+  --navy-800:    #1A1A4E;  /* = brand navy */
+  --navy-700:    #262666;
+  --navy-600:    #35357F;
+  --navy-400:    #6A6AA0;
+
+  /* --- Gold family (derived) --- */
+  --gold-700:    #A87A25;  /* Pressed / hairline on light */
+  --gold-600:    #B98730;
+  --gold-500:    #C9963A;  /* = brand gold */
+  --gold-300:    #E0C286;
+  --gold-100:    #F3E7CC;  /* Faint gold wash */
+
+  /* --- Neutral / surface family --- */
+  --slate-600:   #5C5C7A;
+  --slate-500:   #7A7A9A;  /* = brand slate */
+  --slate-300:   #ADADC2;
+  --slate-200:   #D4D3E0;
+  --blush-100:   #F4F2F9;  /* = brand blush */
+  --blush-50:    #FAF9FC;
+  --line:        #E4E2EE;  /* Hairline borders on light */
+
+  /* ======================================================================
+     Semantic aliases — reference these in components, not raw values
+     ====================================================================== */
+
+  /* Text */
+  --text-strong:     var(--navy-800);   /* Headings, primary copy */
+  --text-body:       #2B2B45;           /* Long-form body */
+  --text-muted:      var(--slate-500);  /* Secondary, captions, meta */
+  --text-on-navy:    var(--white);      /* Copy on navy surfaces */
+  --text-on-navy-muted: #C4C4DA;        /* Secondary copy on navy */
+  --text-accent:     var(--gold-600);   /* Gold labels / eyebrows on light */
+
+  /* Surfaces */
+  --surface-page:    var(--white);
+  --surface-alt:     var(--blush-100);  /* Alternating section band */
+  --surface-card:    var(--white);
+  --surface-navy:    var(--navy-800);   /* Hero / dark sections */
+  --surface-navy-deep: var(--navy-900);
+
+  /* Lines & borders */
+  --border-subtle:   var(--line);
+  --border-strong:   var(--slate-200);
+  --border-gold:     var(--gold-500);
+  --rule-gold:       var(--gold-500);   /* The signature gold hairline */
+
+  /* Interactive (gold-led primary) */
+  --action:          var(--gold-500);
+  --action-hover:    var(--gold-600);
+  --action-press:    var(--gold-700);
+  --action-ink:      var(--navy-900);   /* Text on gold button */
+
+  /* Interactive (navy secondary) */
+  --action-navy:        var(--navy-800);
+  --action-navy-hover:  var(--navy-700);
+  --action-navy-press:  var(--navy-900);
+
+  /* Focus */
+  --focus-ring:      var(--gold-500);
+}

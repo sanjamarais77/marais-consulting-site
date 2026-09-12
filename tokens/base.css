@@ -1,0 +1,64 @@
+/* ==========================================================================
+   Marais Consulting — Base / reset
+   Minimal, calm defaults. Applies brand type + colour to raw HTML.
+   ========================================================================== */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--text-body);
+  background: var(--surface-page);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  color: var(--text-strong);
+  line-height: var(--lh-heading);
+  font-weight: var(--fw-regular);
+  margin: 0 0 var(--sp-4);
+  text-wrap: balance;
+}
+h1 { font-size: var(--fs-h1); line-height: var(--lh-tight); }
+h2 { font-size: var(--fs-h2); }
+h3 { font-size: var(--fs-h3); }
+h4 { font-size: var(--fs-h4); }
+
+p { margin: 0 0 var(--sp-4); text-wrap: pretty; }
+
+a { color: var(--text-accent); text-decoration: none; }
+a:hover { color: var(--action-hover); }
+
+img, svg { max-width: 100%; display: block; }
+
+hr {
+  border: 0;
+  height: var(--bw-rule);
+  background: var(--rule-gold);
+  width: 64px;
+  margin: var(--sp-5) 0;
+}
+
+::selection { background: var(--gold-300); color: var(--navy-900); }
+
+:focus-visible {
+  outline: var(--focus-width) solid var(--focus-ring);
+  outline-offset: var(--focus-offset);
+}
+
+/* Shared brand utility: the wide-tracked uppercase gold eyebrow */
+.eyebrow {
+  font-family: var(--font-ui);
+  font-size: var(--fs-eyebrow);
+  font-weight: var(--fw-bold);
+  letter-spacing: var(--ls-eyebrow);
+  text-transform: uppercase;
+  color: var(--text-accent);
+}

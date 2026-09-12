@@ -1,0 +1,57 @@
+/* ==========================================================================
+   Marais Consulting — Spacing, radius, layout, motion tokens
+   Calm, generous rhythm on an 8px base.
+   ========================================================================== */
+:root {
+  /* Spacing scale (8px base, with fine 4px steps) */
+  --sp-1:  0.25rem;  /*  4 */
+  --sp-2:  0.5rem;   /*  8 */
+  --sp-3:  0.75rem;  /* 12 */
+  --sp-4:  1rem;     /* 16 */
+  --sp-5:  1.5rem;   /* 24 */
+  --sp-6:  2rem;     /* 32 */
+  --sp-7:  2.5rem;   /* 40 */
+  --sp-8:  3rem;     /* 48 */
+  --sp-9:  4rem;     /* 64 */
+  --sp-10: 5rem;     /* 80 */
+  --sp-11: 6.5rem;   /* 104 — section padding */
+  --sp-12: 8rem;     /* 128 — large section padding */
+
+  /* Layout */
+  --container:      1200px;  /* Standard content width */
+  --container-wide: 1360px;  /* Full-bleed heros / bands */
+  --container-text: 720px;   /* Readable prose measure */
+  --gutter:         clamp(1.25rem, 4vw, 3rem);  /* @kind spacing */
+  --section-y:      clamp(4rem, 8vw, 8rem);      /* @kind spacing */
+
+  /* Radius — restrained, premium. Cards square-ish, controls softly rounded */
+  --radius-xs:  4px;
+  --radius-sm:  6px;
+  --radius-md:  10px;
+  --radius-lg:  16px;
+  --radius-xl:  28px;   /* Hero image plate (per brand hero) */
+  --radius-pill: 999px;
+
+  /* Borders */
+  --bw-hair: 1px;
+  --bw-rule: 2px;   /* Gold section rules */
+  --bw-mark: 4px;   /* Heavy gold accent, hero divider */
+
+  /* Elevation — soft, cool navy-tinted shadows (never harsh black) */
+  --shadow-xs: 0 1px 2px rgba(26, 26, 78, 0.06);
+  --shadow-sm: 0 2px 8px rgba(26, 26, 78, 0.06);
+  --shadow-md: 0 10px 30px rgba(26, 26, 78, 0.08);
+  --shadow-lg: 0 24px 60px rgba(26, 26, 78, 0.12);
+  --shadow-gold: 0 12px 30px rgba(201, 150, 58, 0.22);
+
+  /* Motion — calm, considered. No bounce. */
+  --ease-out:   cubic-bezier(0.22, 0.61, 0.36, 1);   /* @kind other */
+  --ease-inout: cubic-bezier(0.65, 0, 0.35, 1);      /* @kind other */
+  --dur-fast:   140ms;  /* @kind other */
+  --dur-base:   240ms;  /* @kind other */
+  --dur-slow:   420ms;  /* @kind other */
+
+  /* Focus ring geometry */
+  --focus-width: 3px;
+  --focus-offset: 2px;
+}
