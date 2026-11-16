@@ -4,13 +4,17 @@
 
 ## About Sanja Marais
 
+Full profile: [About Sanja Marais](https://maraisconsulting.com.au/about/)
+
 - Founder and Principal Consultant of Marais Consulting. Technology, security and AI executive with 25+ years of enterprise technology leadership and 16+ years in healthcare.
-- Former Chief Technology & Security Officer at Aspen Medical, and founding CEO of Aspen Medical Technology.
+- Trained organisational psychologist; co-founded and ran operations, finance, HR, training and IT for a South African security company that grew from six people to 750.
+- Previous employers include Medibank Health Solutions (Defence health contracts) and Aspen Medical, where she was Chief Technology & Security Officer and founding CEO of Aspen Medical Technology.
 - Led global ISO 27001:2022 certification end to end, and an IRAP assessment.
 - Co-designed and led development of a national platform for a Federal Government COVID-19 program that supported more than 6.8 million patient visits.
 - Supported a $3.1B government contract with technology and cyber security.
-- Credentials: ISO 27001 Lead Auditor, ISO 42005 Implementer, PRINCE2 Foundation; Master of Commerce, University of Pretoria. Member of ISACA and AISA.
-- Regular speaker, panellist and host at CIO, CISO, cyber security and transformation conferences.
+- Credentials: ISO 27001 Lead Auditor, ISO 42001 Implementer, PRINCE2 Foundation; Master of Commerce, University of Pretoria. Member of Women in Digital.
+- Regular speaker, panellist and host at CIO, CISO, cyber security and transformation conferences; moderates CIO summits across Australia, Singapore and Malaysia.
+- Certified image consultant who helps women elevate their personal style and confidence.
 
 ## Services
 

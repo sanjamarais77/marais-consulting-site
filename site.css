@@ -206,6 +206,7 @@ a { transition: color var(--dur-fast) var(--ease-out); }
 .cta-band__eyebrow { font-family: var(--font-ui); font-size: var(--fs-eyebrow); font-weight: 700; letter-spacing: var(--ls-eyebrow); text-transform: uppercase; color: var(--gold-500); }
 .cta-band__heading { margin: 0; font-family: var(--font-heading); font-size: var(--fs-h2); line-height: var(--lh-heading); max-width: 640px; }
 .cta-band__text { margin: 0; font-size: var(--fs-lead); line-height: var(--lh-snug); max-width: 600px; }
+.cta-band--navy .cta-band__heading { color: var(--white); }
 .cta-band--navy .cta-band__text { color: var(--text-on-navy-muted); }
 .cta-band--blush .cta-band__text { color: var(--text-body); }
 .cta-band__actions { display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; margin-top: 12px; }
@@ -302,3 +303,8 @@ a.footer__contact-item:hover { color: var(--white); }
 .page-intro { background: var(--navy-800); color: var(--white); position: relative; overflow: hidden; }
 .page-intro::before { content: ""; position: absolute; top: -180px; right: -120px; width: 520px; height: 520px; border-radius: 50%; background: var(--blush-100); opacity: 0.06; pointer-events: none; }
 .page-intro__inner { position: relative; max-width: var(--container); margin: 0 auto; padding: clamp(3.5rem, 7vw, 6rem) var(--gutter); }
+
+/* About page: long-form text inside a section intro */
+.prose p { margin: 0; font-size: var(--fs-body, 1rem); line-height: 1.7; color: var(--text-body); }
+.prose p + p { margin-top: var(--sp-2, 0.5rem); }
+.credentials { list-style: none; padding: 0; margin: var(--sp-7, 2rem) 0 0; }
