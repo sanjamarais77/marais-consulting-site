@@ -1,0 +1,32 @@
+# Marais Consulting
+
+> Marais Consulting is a Brisbane-based technology, AI and cyber advisory firm founded in 2017 by Sanja Marais. It partners with boards, executive teams and technology leaders to design, govern and deliver complex transformation across digital, AI, cyber security and enterprise technology, with deep experience in healthcare, defence, government and other regulated environments. Based in Brisbane, Queensland, Australia, and advising clients globally.
+
+## About Sanja Marais
+
+- Founder and Principal Consultant of Marais Consulting. Technology, security and AI executive with 25+ years of enterprise technology leadership and 16+ years in healthcare.
+- Former Chief Technology & Security Officer at Aspen Medical, and founding CEO of Aspen Medical Technology.
+- Led global ISO 27001:2022 certification end to end, and an IRAP assessment.
+- Co-designed and led development of a national platform for a Federal Government COVID-19 program that supported more than 6.8 million patient visits.
+- Supported a $3.1B government contract with technology and cyber security.
+- Credentials: ISO 27001 Lead Auditor, ISO 42005 Implementer, PRINCE2 Foundation; Master of Commerce, University of Pretoria. Member of ISACA and AISA.
+- Regular speaker, panellist and host at CIO, CISO, cyber security and transformation conferences.
+
+## Services
+
+- [Digital Transformation & Architecture](https://maraisconsulting.com.au/services/): enterprise technology strategy, roadmaps, operating model design, cloud-first infrastructure, enterprise architecture, RFP support and vendor negotiation, digital product development, national-scale platform delivery, UX prototyping, and technical due diligence for M&A.
+- [Cyber Governance & Compliance](https://maraisconsulting.com.au/services/): ISO 27001:2022 certification and audit leadership, IRAP assessment support, DISP security officer support, Essential Eight, NIST CSF 2.0 and GDPR alignment, security-by-design and privacy frameworks, board-level cyber risk reporting, control uplift, and cyber due diligence for M&A.
+- [AI Enablement & Innovation](https://maraisconsulting.com.au/services/): enterprise AI roadmap design, responsible AI adoption, ISO 42001-aligned AI advisory, automation strategy, AI-enabled operating models, digital venture creation and product commercialisation.
+- [Executive Advisory](https://maraisconsulting.com.au/services/): fractional CTO, CIO and CISO support, board technology advisory, C-suite advisory, conference speaking and chairing, executive facilitation, transformation governance and investment assurance.
+
+## Sectors
+
+Healthcare, defence, government, financial services and corporate enterprise.
+
+## Contact
+
+- [Contact page](https://maraisconsulting.com.au/contact/)
+- Email: sanja@maraisconsulting.com.au
+- Phone: +61 429 888 764
+- [LinkedIn](https://www.linkedin.com/in/sanja-marais-2981487b/)
+- [Capability statement (PDF)](https://maraisconsulting.com.au/assets/documents/marais-consulting-capability-statement.pdf)
